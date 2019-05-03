@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="jsp-api">
+    <CLASSES>
+      <root url="jar://E:/Spring/tomcat/JAR/apache-tomcat-8.5.38/lib/jsp-api.jar!/" />
+      <root url="jar://E:/Spring/tomcat/JAR/apache-tomcat-8.5.38/lib/servlet-api.jar!/" />
+      <root url="file://$PROJECT_DIR$/.." />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/src" />
+      <root url="file://$PROJECT_DIR$/../SSM_demo_two/src" />
+      <root url="file://$PROJECT_DIR$/../mybatis_demo/src" />
+      <root url="file://$PROJECT_DIR$/../mybatis_demo_2/src" />
+      <root url="file://$PROJECT_DIR$/../newspringmvc2/src" />
+      <root url="file://$PROJECT_DIR$/../ssm_demo/src" />
+    </SOURCES>
+  </library>
+</component>

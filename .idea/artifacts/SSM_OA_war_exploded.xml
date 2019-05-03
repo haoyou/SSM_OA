@@ -1,0 +1,50 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SSM_OA:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SSM_OA_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SSM_OA/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SSM_OA" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="E:/SSM_OA/ant-1.9.6.jar" />
+          <element id="file-copy" path="E:/SSM_OA/ant-launcher-1.9.6.jar" />
+          <element id="file-copy" path="E:/SSM_OA/asm-5.2.jar" />
+          <element id="file-copy" path="E:/SSM_OA/c3p0-0.9.5.2.jar" />
+          <element id="file-copy" path="E:/SSM_OA/cglib-3.2.5.jar" />
+          <element id="file-copy" path="E:/SSM_OA/com.springsource.org.aopalliance-1.0.0.jar" />
+          <element id="file-copy" path="E:/SSM_OA/com.springsource.org.aspectj.tools-1.6.6.RELEASE.jar" />
+          <element id="file-copy" path="E:/SSM_OA/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" />
+          <element id="file-copy" path="E:/SSM_OA/commons-fileupload-1.2.1.jar" />
+          <element id="file-copy" path="E:/SSM_OA/commons-io-1.3.2.jar" />
+          <element id="file-copy" path="E:/SSM_OA/commons-logging-1.2.jar" />
+          <element id="file-copy" path="E:/SSM_OA/javassist-3.22.0-CR2.jar" />
+          <element id="file-copy" path="E:/SSM_OA/log4j-1.2.17.jar" />
+          <element id="file-copy" path="E:/SSM_OA/log4j-api-2.3.jar" />
+          <element id="file-copy" path="E:/SSM_OA/log4j-core-2.3.jar" />
+          <element id="file-copy" path="E:/SSM_OA/mchange-commons-java-0.2.11.jar" />
+          <element id="file-copy" path="E:/SSM_OA/mybatis-3.4.5.jar" />
+          <element id="file-copy" path="E:/SSM_OA/mybatis-spring-1.3.1.jar" />
+          <element id="file-copy" path="E:/SSM_OA/mysql-connector-java.jar" />
+          <element id="file-copy" path="E:/SSM_OA/ognl-3.1.15.jar" />
+          <element id="file-copy" path="E:/SSM_OA/slf4j-api-1.7.25.jar" />
+          <element id="file-copy" path="E:/SSM_OA/slf4j-log4j12-1.7.25.jar" />
+          <element id="file-copy" path="E:/SSM_OA/spring-aop-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="E:/SSM_OA/spring-context-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="E:/SSM_OA/spring-beans-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="E:/SSM_OA/spring-core-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="E:/SSM_OA/spring-expression-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="E:/SSM_OA/spring-jdbc-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="E:/SSM_OA/spring-tx-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="E:/SSM_OA/spring-web-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="E:/SSM_OA/spring-webmvc-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="E:/SSM_OA/jstl.jar" />
+          <element id="file-copy" path="E:/SSM_OA/standard.jar" />
+          <element id="library" level="project" name="jsp-api" />
+          <element id="file-copy" path="E:/Spring/gson-2.2.4.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

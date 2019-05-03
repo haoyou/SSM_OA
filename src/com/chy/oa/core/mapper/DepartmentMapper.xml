@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- namespace:指定映射器接口的全路径 -->
+<mapper namespace="com.chy.oa.core.mapper.DepartmentMapper">
+	<resultMap id="depMap" type="department">
+		<id property="id" column="id"/>
+		<result column="pid" property="pid"/>
+		<result column="dname" property="dname"/>
+		<result column="ddesc" property="ddesc"/>
+		<result column="createtime" property="createtime"/>
+		<result column="orderfield" property="orderfield"/>
+	</resultMap>
+
+	<select id="queryDepList" resultMap="depMap">
+		SELECT * FROM department
+	</select>
+
+    <!--<select id="queryDepList" resultMap="depMap" statementType="CALLABLE">-->
+		<!--{call getalldeps}-->
+	<!--</select>-->
+
+	<delete id="deleteDep" parameterType="int">
+		delete from department where  id = #{id}
+	</delete>
+	<select id="queryDepById" resultMap="depMap">
+		select * from department where id=#{id}
+	</select>
+	<update id="updateDep" parameterType="department">
+		update department
+		set pid=#{pid},dname=#{dname},ddesc=#{ddesc}
+		 where id=#{id}
+	</update>
+	<insert id="insert" parameterType="department">
+		insert into department(id,pid,dname,ddesc,createtime,orderfield)
+		values(null,#{pid},#{dname},#{ddesc},#{createtime},#{orderfield})
+	</insert>
+	<insert id="save" parameterType="department" useGeneratedKeys="true" keyProperty="id">
+		insert into department(id,pid,dname,ddesc,createtime,orderfield)
+		values(null,#{pid},#{dname},#{ddesc},#{createtime},#{orderfield})
+	</insert>
+</mapper>

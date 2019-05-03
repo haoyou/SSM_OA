@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- namespace:指定映射器接口的全路径 -->
+<mapper namespace="com.chy.oa.core.mapper.EmployeeMapper">
+	
+
+	<!-- 映射集
+		type:查询返回的结果类型
+		id：映射集的标识，随便起（见名知意）
+	 -->
+	<!--<resultMap type="student" id="mapid">-->
+
+		<!--<id property="id" column="id"/>-->
+		<!--<result property="name" column="name"/>-->
+		<!--<result property="age" column="age"/>-->
+		<!--<result property="birthday" column="birthday"/>-->
+
+	<!--</resultMap>-->
+	<select id="queryAllRole" resultType="role">
+		select * from role
+	</select>
+
+</mapper>

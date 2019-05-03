@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<!--<typeAliases>-->
+		<!--&lt;!&ndash;扫描实体类&ndash;&gt;-->
+		<!--<package name="com.chy.oa.test233.entity"/>-->
+	<!--</typeAliases>-->
+	<typeAliases>
+		<!--扫描实体类-->
+		<package name="com.chy.oa.core.entity"/>
+	</typeAliases>
+	<plugins>
+		<plugin interceptor="com.chy.oa.base.pluging.PagePluging"/>
+	</plugins>
+</configuration>
